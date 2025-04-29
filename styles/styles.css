@@ -382,6 +382,7 @@
     bottom: 0;
     left: 0;
     height: 94%;
+    width: 100%;
   }
   #es-rc #es-rc-content .es-durable__left, #es-rc #es-rc-content .es-durable__product, #es-rc #es-rc-content .es-durable__right {
     flex: 1 1 0;
