@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Hurme-Bold";
-  src: url("../fonts/HurmeGeometricSans3-Bold.woff") format("woff");
+  src: url("../static/fonts/HurmeGeometricSans3-Bold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Hurme-Regular";
-  src: url("../fonts/HurmeGeometricSans3-Regular.woff") format("woff");
+  src: url("../static/fonts/HurmeGeometricSans3-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -18,7 +18,7 @@
   color: #13294b;
   color: #13294b;
   background-color: #d9d8d6;
-  max-width: 990px;
+  max-width: 1400px;
   margin: auto;
   text-align: center;
 }
@@ -50,6 +50,11 @@
 @media (min-width: 768px) {
   #es-rc #es-rc-content .es-section-title {
     font-size: 40px;
+  }
+}
+@media (min-width: 1300px) {
+  #es-rc #es-rc-content .es-section-title {
+    font-size: 48px;
   }
 }
 #es-rc #es-rc-content .es-kv {
@@ -285,7 +290,7 @@
   color: #d9d8d6;
   padding: 32px;
   -webkit-hyphens: auto;
-          hyphens: auto;
+  hyphens: auto;
 }
 #es-rc #es-rc-content .es-footer ::-moz-selection {
   background-color: #8e7845;
@@ -387,7 +392,9 @@
     height: 94%;
     width: 100%;
   }
-  #es-rc #es-rc-content .es-durable__left, #es-rc #es-rc-content .es-durable__product, #es-rc #es-rc-content .es-durable__right {
+  #es-rc #es-rc-content .es-durable__left,
+  #es-rc #es-rc-content .es-durable__product,
+  #es-rc #es-rc-content .es-durable__right {
     flex: 1 1 0;
   }
   #es-rc #es-rc-content .es-durable__left {
@@ -599,4 +606,123 @@
     bottom: -11%;
     width: 26%;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+@media (min-width: 1100px) {
+  #es-rc #es-rc-content .es-kv__left {
+    padding: 50px 0 50px 80px;
+  }
+  #es-rc #es-rc-content .es-kv__packshot {
+    padding: 50px 140px 0 0;
+  }
+  #es-rc #es-rc-content .es-design {
+    padding: 48px 0 60px 80px;
+  }
+  #es-rc #es-rc-content .es-design__description {
+    max-width: unset;
+    padding-right: 80px;
+  }
+  #es-rc #es-rc-content .es-durable {
+    padding: 48px 80px 80px 80px;
+    min-height: 750px;
+    align-items: center;
+  }
+  #es-rc #es-rc-content .es-durable__left {
+    max-width: 345px;
+    min-height: 580px;
+  }
+  #es-rc #es-rc-content .es-durable__product {
+    margin-left: -8%;
+  }
+  #es-rc #es-rc-content .es-durable__product img {
+    max-height: 750px;
+  }
+  #es-rc #es-rc-content .es-durable__right {
+    margin-left: unset;
+  }
+  #es-rc #es-rc-content .es-compatible,
+  #es-rc #es-rc-content .es-features {
+    background-size: 100%;
+  }
+  #es-rc #es-rc-content .es-compatible {
+    padding-inline: 80px;
+  }
+  #es-rc #es-rc-content .es-features__step {
+    max-width: 300px;
+  }
+  #es-rc #es-rc-content .es-features__step--2 {
+    margin-top: -93px;
+    max-width: 350px;
+    margin-left: 1%;
+  }
+  #es-rc #es-rc-content .es-features__step--3 {
+    margin-left: 0;
+    max-width: 400px;
+  }
+  #es-rc #es-rc-content .es-features .es-triangle {
+    border-left: 1400px solid #13294b;
+  }
+  #es-rc #es-rc-content .es-taste__single:nth-of-type(3) {
+    top: 19%;
+  }
+  #es-rc #es-rc-content .es-taste__single:nth-of-type(4) {
+    left: unset;
+    top: unset;
+    right: -11%;
+    bottom: -11%;
+    width: 24%;
+  }
+  #es-rc #es-rc-content .es-footer {
+    padding-inline: 80px;
+  }
+}
+@media (min-width: 1300px) {
+  #es-rc #es-rc-content .es-kv {
+    justify-content: center;
+    gap: 18%;
+  }
+  #es-rc #es-rc-content .es-kv__title {
+    font-size: 64px;
+  }
+  #es-rc #es-rc-content .es-kv__logo {
+    max-width: 250px;
+  }
+  #es-rc #es-rc-content .es-kv__slogan {
+    font-size: 32px;
+  }
+  #es-rc #es-rc-content .es-durable__product img {
+    min-height: 700px;
+  }
+  #es-rc #es-rc-content .es-durable {
+    min-height: 850px;
+  }
+  #es-rc #es-rc-content .es-features__arrow--1 {
+    left: 24%;
+    top: -24%;
+  }
+  #es-rc #es-rc-content .es-features__arrow--2 {
+    left: 51%;
+  }
+  #es-rc #es-rc-content .es-features__step--2 {
+    margin-left: 3%;
+  }
+  #es-rc #es-rc-content .es-features__step--3 {
+    margin-left: 3%;
+  }
+  #es-rc #es-rc-content .es-kv__description,
+  #es-rc #es-rc-content .es-design__description,
+  #es-rc #es-rc-content .es-durable__right,
+  #es-rc #es-rc-content .es-compatible__description,
+  #es-rc #es-rc-content .es-features__description {
+    font-size: 24px;
+  }
+  #es-rc #es-rc-content .es-features__step--text,
+  #es-rc #es-rc-content .es-taste__text {
+    font-size: 22px;
+  }
+  #es-rc #es-rc-content .es-taste__title {
+    font-size: 26px;
+  }
+  #es-rc #es-rc-content .es-taste__desktop {
+    height: 850px;
+  }
+}
