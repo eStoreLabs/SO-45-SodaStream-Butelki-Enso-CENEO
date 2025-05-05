@@ -16,8 +16,7 @@
   font-weight: 400;
   line-height: 1.2;
   color: #13294b;
-  color: #13294b;
-  background-color: #d9d8d6;
+  background-color: #13294b;
   max-width: 1400px;
   margin: auto;
   text-align: center;
@@ -317,6 +316,9 @@
   #es-rc #es-rc-content .es-taste .es-section-title {
     margin-top: -40px;
   }
+  #es-rc #es-rc-content .es-durable__product {
+    margin-left: -9%;
+}
 }
 @media (min-width: 768px) {
   #es-rc #es-rc-content {
