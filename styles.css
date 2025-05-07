@@ -693,6 +693,7 @@
   }
   #es-rc #es-rc-content .es-durable__product img {
     min-height: 700px;
+    max-width: none;
   }
   #es-rc #es-rc-content .es-durable {
     min-height: 850px;
