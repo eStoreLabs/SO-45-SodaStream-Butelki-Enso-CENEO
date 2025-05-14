@@ -632,6 +632,9 @@
     max-width: 345px;
     min-height: 580px;
   }
+  #es-rc #es-rc-content .es-durable .es-section-title {
+    width: max-content;
+  }
   #es-rc #es-rc-content .es-durable__product {
     margin-left: -8%;
   }
